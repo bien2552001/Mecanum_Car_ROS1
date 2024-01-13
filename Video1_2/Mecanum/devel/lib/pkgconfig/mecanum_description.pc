@@ -1,8 +1,0 @@
-prefix=/home/bien/ros1/project/Mecanum_Car_ROS1/Video1_1/Mecanum/devel
-
-Name: mecanum_description
-Description: Description of mecanum_description
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
