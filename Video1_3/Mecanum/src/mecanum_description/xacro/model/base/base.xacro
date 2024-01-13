@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="base">
+
+        <link name="base_link">
+            <inertial>
+                <origin xyz="-5.1457E-09 5.1488E-09 0.0011571" rpy="0 0 0" />
+                <mass value="0.20851" />
+                <inertia ixx="0.00014409" ixy="1.2229E-09" ixz="-1.3529E-11" iyy="0.000526" iyz="1.6049E-11" izz="0.00065951" />
+            </inertial>
+            <visual>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://mecanum_description/meshes/base_link.STL" />
+                </geometry>
+                <material name="blue">
+                    <color rgba="0.0 0.0 0.8 1.0"/>
+                </material>
+            </visual>
+            <collision>
+                <origin xyz="0 0 0" rpy="0 0 0" />
+                <geometry>
+                    <mesh filename="package://mecanum_description/meshes/base_link.STL" />
+                </geometry>
+            </collision>
+        </link>
+    </xacro:macro>
+    
+</robot>
