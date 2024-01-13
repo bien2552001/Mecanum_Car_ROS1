@@ -1,5 +1,0 @@
-mecanum_description
-/home/bien/ros1/project/Car/car_mecanum_project/source/devel/.private/mecanum_description/cmake.lock /home/bien/ros1/project/Car/car_mecanum_project/source/devel/./cmake.lock
-/home/bien/ros1/project/Car/car_mecanum_project/source/devel/.private/mecanum_description/lib/pkgconfig/mecanum_description.pc /home/bien/ros1/project/Car/car_mecanum_project/source/devel/lib/pkgconfig/mecanum_description.pc
-/home/bien/ros1/project/Car/car_mecanum_project/source/devel/.private/mecanum_description/share/mecanum_description/cmake/mecanum_descriptionConfig.cmake /home/bien/ros1/project/Car/car_mecanum_project/source/devel/share/mecanum_description/cmake/mecanum_descriptionConfig.cmake
-/home/bien/ros1/project/Car/car_mecanum_project/source/devel/.private/mecanum_description/share/mecanum_description/cmake/mecanum_descriptionConfig-version.cmake /home/bien/ros1/project/Car/car_mecanum_project/source/devel/share/mecanum_description/cmake/mecanum_descriptionConfig-version.cmake
