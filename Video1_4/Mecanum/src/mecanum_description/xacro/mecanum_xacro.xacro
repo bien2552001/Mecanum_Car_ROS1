@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="mecanum_car">
+    
+
+<!-- ======================================= Model include  ====================================-->
+
+
+<!-- Base -->
+<xacro:include filename="$(find mecanum_description)/xacro/model/base/base.xacro"/>
+
+<!-- Wheel -->
+<xacro:include filename="$(find mecanum_description)/xacro/model/wheel/wheel.xacro"/>
+
+<!-- Wheel1 -->
+<xacro:include filename="$(find mecanum_description)/xacro/model/wheel1/wheel1.xacro"/>
+
+
+
+
+<!-- RplidarA1 -->
+<xacro:include filename="$(find mecanum_description)/xacro/model/sensor/rplidarA1/rplidarA1.xacro"/>
+
+
+
+<!-- ======================================= Gazebo include  ====================================-->
+
+
+<!-- Base -->
+<xacro:include filename="$(find mecanum_description)/xacro/gazebo/base/base.xacro"/>
+
+<!-- Wheel -->
+<xacro:include filename="$(find mecanum_description)/xacro/gazebo/wheel/wheel.xacro"/>
+
+
+<!-- Wheel1 -->
+<xacro:include filename="$(find mecanum_description)/xacro/gazebo/wheel/wheel1.xacro"/>
+
+<!-- Transmission -->
+<xacro:include filename="$(find mecanum_description)/xacro/gazebo/transmission/transmission.xacro"/>
+
+
+
+<!-- RplidarA1 -->
+<xacro:include filename="$(find mecanum_description)/xacro/gazebo/sensor/rplidarA1/rplidarA1.xacro"/>
+
+
+<!-- Plugin -->
+<xacro:include filename="$(find mecanum_description)/xacro/gazebo/plugin/plugin.xacro"/>
+
+
+
+
+<!-- ======================================= Model Macro  ====================================-->
+
+<!-- Base -->
+<xacro:base/>
+
+<!-- Wheel -->
+<xacro:wheel/>
+
+<!-- Wheel1 -->
+<xacro:wheel1/>
+
+
+<!-- RplidarA1 -->
+<xacro:rplidarA1/>
+
+
+
+
+<!-- ======================================= Gazebo Macro  ====================================-->
+
+<!-- Base -->
+<xacro:gazebo_base/>
+
+<!-- Wheel -->
+<xacro:gazebo_wheel/>
+
+
+<!-- Wheel1 -->
+<xacro:gazebo_wheel1/>
+
+
+<!-- RplidarA1 -->
+<xacro:gazebo_rplidarA1/>
+
+<!-- Plugin -->
+<xacro:gazebo_plugin/>
+
+
+</robot>
